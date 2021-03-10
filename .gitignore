@@ -1,2 +1,2 @@
-./src/KnapsackProblem/bin/*
-./src/KnapsackProblem/obj/*
+src/KnapsackProblem/bin/*
+src/KnapsackProblem/obj/*
