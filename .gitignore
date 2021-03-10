@@ -2,3 +2,5 @@ src/KnapsackProblem/bin/*
 src/KnapsackProblem/obj/*
 test/KnapsackProblemTests/obj/*
 test/KnapsackProblemTests/bin/*
+.vscode/*
+.vs/*
