@@ -17,7 +17,7 @@ namespace GeneratorCS
 		{
 			long k;
 			double value_0_1;
-			long m = 2147483647l, a = 16807l, b = 127773l, c = 2836l;
+			long m = 2147483647L, a = 16807L, b = 127773L, c = 2836L;
 
 			k = seed / b;
 			seed = a * (seed % b) - k * c;
