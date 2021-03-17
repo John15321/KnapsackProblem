@@ -64,6 +64,7 @@ namespace KnapsackProblem
         // The seed for randomness
         private readonly long _seed;
         private int valueSum;
+        private int itemSize;
 
         public Knapsack(int numberOfItems, int cSize, long seed)
         {
@@ -77,6 +78,7 @@ namespace KnapsackProblem
             set => _cSize = value;
         }
         public int ValueSum { get => valueSum; set => valueSum = value; }
+        public int ItemSize { get => _items.Length; }
 
         public void GenerateItems()
         {

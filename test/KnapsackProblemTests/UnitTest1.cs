@@ -78,5 +78,16 @@ namespace KnapsackProblemTests
             testBag.PrintTheBag();
             Assert.AreEqual(testBag.ValueSum, 14);
         }
+
+        [Test]
+        public void Item_generate()
+        {
+            var bagSize = 5;
+            var C = 10;
+            var seed = 609;
+            var testBag = new Knapsack(bagSize, C, seed);
+            testBag.GenerateItems();
+            Assert.AreEqual(testBag.ItemSize, 5);
+        }
     }
 }
